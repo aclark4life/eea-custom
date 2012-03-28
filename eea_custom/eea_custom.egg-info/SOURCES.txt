@@ -1,0 +1,5 @@
+setup.py
+eea_custom.egg-info/PKG-INFO
+eea_custom.egg-info/SOURCES.txt
+eea_custom.egg-info/dependency_links.txt
+eea_custom.egg-info/top_level.txt
