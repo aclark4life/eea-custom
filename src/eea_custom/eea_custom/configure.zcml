@@ -1,2 +1,10 @@
-<configure>
+<configure
+    xmlns="http://namespaces.zope.org/browser">
+
+    <browser:page
+        class=".EEACustomView"
+        name="eea_custom_view"
+        for="*"
+    />
+
 </configure>
