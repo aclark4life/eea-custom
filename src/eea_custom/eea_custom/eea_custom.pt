@@ -26,6 +26,8 @@
         <div metal:define-slot="inside" tal:replace="structure text">The body</div>
     </div>
 
+    <h1>Hello world!</h1>
+
     <metal:listingmacro define-macro="listing">
     <tal:foldercontents define="contentFilter contentFilter|request/contentFilter|nothing;
                         contentFilter python:contentFilter and dict(contentFilter) or {};
