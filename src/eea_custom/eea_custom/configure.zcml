@@ -2,7 +2,6 @@
     xmlns:faceted="http://namespaces.zope.org/faceted">
 
     <faceted:view
-        for="*"
         class=".EEACustomView"
         name="eea_custom_view"
         permission="zope2.View"
