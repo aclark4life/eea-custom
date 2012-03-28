@@ -1,9 +1,10 @@
 from Products.Five.browser.pagetemplatefile import \
     ViewPageTemplateFile
-from zope.publisher.browser import BrowserPage
+#from zope.publisher.browser import BrowserPage
+from Products.Five.browser import BrowserView
 
 
-class EEACustomView(BrowserPage):
+class EEACustomView(BrowserView):
     """
     EEA custom view
     """
